@@ -1,3 +1,7 @@
+<link rel="import" href="/plugins/marcel-plugin-message/message.html" />
+<link rel="import" href="/plugins/marcel-plugin-logo/logo.html" />
+<link rel="import" href="/plugins/marcel-plugin-datetime/datetime.html" />
+
 <dom-module id="welcome-item">
   <template>
     <style include="shared-styles"></style>
@@ -11,9 +15,6 @@
       </div>
     </div>
   </template>
-  <link rel="import" href="/message/message.html" />
-  <link rel="import" href="/logo/logo.html" />
-  <link rel="import" href="/datetime/datetime.html" />
   <script>
     (() => {
       class Welcome extends Polymer.Element {
